@@ -210,7 +210,7 @@ def main():
 
     st.markdown("""
     <h1 class="title-animation" style="text-align: center; color: #C71585;">
-        💘 MOST IMP Question's for Riza 💘
+        MOST IMP Question's for Riza 💘
     </h1>
     <div style="height: 4px; background: linear-gradient(90deg, #FF69B4, #FF1493); margin: 10px auto 30px; width: 60%;"></div>
     """, unsafe_allow_html=True)
