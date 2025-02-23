@@ -138,7 +138,7 @@ def show_dhoni_popup():
     html("""
     <div class="popup">
         <h3 style="color: #ff1493;">😏 Mine is Dhoni! ❤️</h3>
-        <p style="color: #ff1493;">Doba jevi !! Let's move to next question! 🏏➡️🎬</p>
+        <p style="color: #ff1493;"> Doba jevi !! Let's move to next question! 🏏➡️🎬</p>
         <script>
             document.getElementById('typingSound').play();
         </script>
@@ -151,7 +151,7 @@ def show_dhoni_popup():
 
 def show_food_response():
     with st.empty():
-        text = "AWWW, so sweet... mine favourite too! 💖"
+        text = "AWWW, beb so sweet... mine favourite too! 💖"
         html("<script>document.getElementById('typingSound').play();</script>")
         
         placeholder = st.empty()
@@ -210,7 +210,7 @@ def main():
 
     st.markdown("""
     <h1 class="title-animation" style="text-align: center; color: #C71585;">
-        💘 Riza's Romantic Game 💘
+        💘 MOST IMP Question's for Riza 💘
     </h1>
     <div style="height: 4px; background: linear-gradient(90deg, #FF69B4, #FF1493); margin: 10px auto 30px; width: 60%;"></div>
     """, unsafe_allow_html=True)
