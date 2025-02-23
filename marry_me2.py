@@ -206,7 +206,7 @@ def show_final_reveal():
 
 def main():
     inject_assets()
-    # st.title("MOST IMP Question's for Riza 💘")
+    # st.title("MOST IMP Question's for Rizza 💘")
 
     st.markdown("""
     <h1 class="title-animation" style="text-align: center; color: #C71585;">
