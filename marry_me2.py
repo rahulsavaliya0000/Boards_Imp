@@ -137,14 +137,14 @@ convo = [
 def show_dhoni_popup():
     html("""
     <div class="popup">
-        <h3 style="color: #ff1493;">😏 Mine is Deepen! ❤️</h3>
+        <h3 style="color: #ff1493;">😏 Mine is Dhoni! ❤️</h3>
         <p style="color: #ff1493;">Doba jevi !! Let's move to next question! 🏏➡️🎬</p>
         <script>
             document.getElementById('typingSound').play();
         </script>
     </div>
     """)
-    time.sleep(2)
+    time.sleep(5)
     st.session_state.state['step'] = 3  # Move to actress question
     st.session_state.state['page'] = 'main'
     st.rerun()
@@ -199,7 +199,7 @@ def show_final_reveal():
     st.balloons()
     st.markdown("""
     <div class="popup">
-        <h1 class="big-text"  style="text-align: center; color: #C71585;">IT'S YOU! 💖</h1>
+        <h1 class="big-text"  style="text-align: center; color: #C71585;">IT'S YOU! Baby 💖</h1>
         <div style="font-size: 2em; animation: float 1s infinite;"></div>
     </div>
     """, unsafe_allow_html=True)
