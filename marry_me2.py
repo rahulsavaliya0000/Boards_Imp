@@ -126,19 +126,19 @@ convo = [
     },
     {
         "message": "Who's your favorite cricketer? 🏏",
-        "options": ["Virat Kohli", "MS Dhoni", "Sachin", "Rohit Sharma"],
+        "options": ["Virat Kohli", "MS Dhoni", "Deepen", "Neighber 's DOG"],
     },
     {
         "message": "Who's your favorite actress? 🎬",
-        "options": ["Deepika", "Alia", "Katrina", "Someone special..."],
+        "options": ["Deepika", "Alia", "Jemini", "Someone special..."],
     }
 ]
 
 def show_dhoni_popup():
     html("""
     <div class="popup">
-        <h3 style="color: #ff1493;">😏 Mine is Dhoni! ❤️</h3>
-        <p>Let's move to the next question! 🏏➡️🎬</p>
+        <h3 style="color: #ff1493;">😏 Mine is Deepen! ❤️</h3>
+        <p style="color: #ff1493;">Doba jevi !! Let's move to next question! 🏏➡️🎬</p>
         <script>
             document.getElementById('typingSound').play();
         </script>
@@ -199,8 +199,8 @@ def show_final_reveal():
     st.balloons()
     st.markdown("""
     <div class="popup">
-        <h1 class="big-text">IT'S YOU! 💖</h1>
-        <div style="font-size: 2em; animation: float 1s infinite;">🌸 YOU 🌸</div>
+        <h1 class="big-text"  style="text-align: center; color: #C71585;">IT'S YOU! 💖</h1>
+        <div style="font-size: 2em; animation: float 1s infinite;"></div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -225,7 +225,7 @@ def main():
             <div class="floating" style='
                 font-size: 1.2em; 
                 padding: 20px; 
-                background: #fff0f5; 
+                background: #c71585; 
                 border-radius: 15px; 
                 margin: 20px 0;
             '>{step['message']}</div>
