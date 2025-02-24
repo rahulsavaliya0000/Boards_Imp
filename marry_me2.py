@@ -93,7 +93,7 @@ def inject_assets():
     <script>
     function createHearts() {
         const heart = document.createElement('div');
-        heart.innerHTML = '💖';
+        heart.innerHTML = '💖💖💖💖💖💖';
         heart.className = 'heart';
         heart.style.left = Math.random() * 95 + '%';
         heart.style.fontSize = (20 + Math.random() * 30) + 'px';
@@ -117,12 +117,12 @@ if 'state' not in st.session_state:
 
 convo = [
     {
-        "message": "🌸 Hi baby! Let's play a game? 💖",
+        "message": "🌸 Hi baby! wanna play a game? 💖",
         "options": ["Always ready!", "Depends...", "Try me!"],
     },
     {
         "message": "What's your favorite food? 🍕",
-        "options": ["Pizza", "Maggie", "Pasta", "Your cooking 😋"],
+        "options": ["Pizza", "Your Lips👄", "Pasta", "Your cooking 😋"],
     },
     {
         "message": "Who's your favorite cricketer? 🏏",
@@ -130,15 +130,16 @@ convo = [
     },
     {
         "message": "Who's your favorite actress? 🎬",
-        "options": ["Deepika", "Alia", "Jemini", "Someone special..."],
+        "options": ["Rashmika", "Jemini", "Alia", "Someone special..."],
     }
 ]
 
 def show_dhoni_popup():
     html("""
     <div class="popup">
+        <h1 style="color: #c71585;">Doba jevi !! </h1>
         <h3 style="color: #ff1493;">😏 Mine is Dhoni! ❤️</h3>
-        <p style="color: #ff1493;"> Doba jevi !! Let's move to next question! 🏏➡️🎬</p>
+        <p style="color: #ff1493;"> Let's move to next question! 🏏➡️🎬</p>
         <script>
             document.getElementById('typingSound').play();
         </script>
