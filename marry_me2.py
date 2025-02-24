@@ -137,9 +137,9 @@ convo = [
 def show_dhoni_popup():
     html("""
     <div class="popup">
-        <h1 style="color: #c71585;">Doba jevi !! </h1>
-        <h3 style="color: #ff1493;">😏 Mine is Dhoni! ❤️</h3>
-        <p style="color: #ff1493;"> Let's move to next question! 🏏➡️🎬</p>
+        <h1 style="color: #c71585;">Doba jevi !! tari choice j kharab che!! like your Ex</h1>
+        <h3 style="color: #ff1493;">😏 Mine is Dhoni! Next question ❤️</h3>
+        # <p style="color: #ff1493;"> Let's move to next question! 🏏➡️🎬</p>
         <script>
             document.getElementById('typingSound').play();
         </script>
