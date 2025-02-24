@@ -118,7 +118,7 @@ if 'state' not in st.session_state:
 convo = [
     {
         "message": "🌸 Hi Cutiee!! wanna play a game? 💖",
-        "options": ["Always ready!", "Depends...", "Try me!"],
+        "options": ["Always ready!", "tu puche ne hu na padu??", "obvious yrr"],
     },
     {
         "message": "What's your favorite food? 🍕",
@@ -126,11 +126,11 @@ convo = [
     },
     {
         "message": "Who's your favorite cricketer? 🏏",
-        "options": ["Virat Kohli", "MS Dhoni", "Deepen", "Neighber 's DOG"],
+        "options": ["Virat Kohli", "MS Dhoni", "Tushar", "Neighber 's DOG"],
     },
     {
         "message": "Who's your favorite actress? 🎬",
-        "options": ["Rashmika", "Jemini", "Alia", "Someone special..."],
+        "options": ["Rashmika", "Heer", "Alia", "ofcourse me"],
     }
 ]
 
@@ -211,7 +211,7 @@ def main():
 
     st.markdown("""
     <h1 class="title-animation" style="text-align: center; color: #C71585;">
-        MOST IMP Question's for Riza 💘
+        MOST IMP Question's for Ansiii 💘
     </h1>
     <div style="height: 4px; background: linear-gradient(90deg, #FF69B4, #FF1493); margin: 10px auto 30px; width: 60%;"></div>
     """, unsafe_allow_html=True)
