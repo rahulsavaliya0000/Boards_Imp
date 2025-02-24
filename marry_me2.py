@@ -117,12 +117,12 @@ if 'state' not in st.session_state:
 
 convo = [
     {
-        "message": "🌸 Hi baby! wanna play a game? 💖",
+        "message": "🌸 Hi Cutiee!! wanna play a game? 💖",
         "options": ["Always ready!", "Depends...", "Try me!"],
     },
     {
         "message": "What's your favorite food? 🍕",
-        "options": ["Pizza", "Your Lips👄", "Pasta", "Your cooking 😋"],
+        "options": ["Pizza🍕", "Your Lips👄", "Pasta", "Your cooking 😋"],
     },
     {
         "message": "Who's your favorite cricketer? 🏏",
